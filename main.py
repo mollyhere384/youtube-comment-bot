@@ -29,13 +29,8 @@ def main():
     video_id = input("Enter the YouTube video ID: ")
     youtube_bot = YouTubeBot()
     comments = [
-        "Great video!",
-        "Awesome content!",
-        "Keep up the good work!",
-        "This was really helpful, thanks!",
-        "I enjoyed watching this!",
-        "Subscribed!",
-        "Nice video, liked and shared!"   #can be changed
+        "Those who didn't come from TikTok can like this comment",
+        "My parents said if i reached 10k they will buy me a professional camera pls guys im begging you! ❤❤",   #can be changed
     ]
 
     while True:
