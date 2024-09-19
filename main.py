@@ -21,21 +21,15 @@ class YouTubeBot:
         }
         response = requests.post(url, json=payload)
         if response.status_code == 200:
-            print(f"Commented under video {video_id}: {comment}")
+            print(f"Commented under video {video_id}: {I just posted a video of a women crying that her dog was being put down}")
         else:
             print(f"Failed to comment under video {video_id}: {response.text}")
 
 def main():
-    video_id = input("Enter the YouTube video ID: ")
+    video_id = input("enter here:B_UjTv6eH4I?si=G1uSxVuTwLiklSSO ")
     youtube_bot = YouTubeBot()
     comments = [
-        "Great video!",
-        "Awesome content!",
-        "Keep up the good work!",
-        "This was really helpful, thanks!",
-        "I enjoyed watching this!",
-        "Subscribed!",
-        "Nice video, liked and shared!"   #can be changed
+        "REAL FANS WHERE ARE YOU??!!❤❤"  #can be changed
     ]
 
     while True:
