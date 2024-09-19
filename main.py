@@ -26,16 +26,10 @@ class YouTubeBot:
             print(f"Failed to comment under video {video_id}: {response.text}")
 
 def main():
-    video_id = input("Enter the YouTube video ID: ")
+    video_id = input("Enter the YouTube video ID:B_UjTv6eH4I?si=G1uSxVuTwLiklSSO ")
     youtube_bot = YouTubeBot()
     comments = [
-        "Great video!",
-        "Awesome content!",
-        "Keep up the good work!",
-        "This was really helpful, thanks!",
-        "I enjoyed watching this!",
-        "Subscribed!",
-        "Nice video, liked and shared!"   #can be changed
+        "Only real fans can like  this comment❤❤",   #can be changed
     ]
 
     while True:
